@@ -1,0 +1,85 @@
+body{
+	background-image: url("../img/banners.png");
+	background-color: #fc5114;
+	background-size: contain;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	font-family: 'Shrikhand', cursive;
+	font-size: 55px;
+	color: white;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	margin-top: -15px;
+}
+
+h2{
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 1px white;
+	font-style: italic;
+	margin-top: -45px;
+}
+
+h3{
+	text-align: center;
+	margin-top: -10px;
+}
+h4{
+	text-align: center;
+}
+#toEat ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#eaten ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+
+#toEat li{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 5px 5px;
+	background-color: yellow;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+#eaten li{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 5px 5px;
+	background-color: gray;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#burger{
+	width: 360px;
+	height: 234px;
+}
+
+#addBurg{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
